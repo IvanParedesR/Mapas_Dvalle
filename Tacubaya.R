@@ -1,3 +1,5 @@
+https://www.r-spatial.org/r/2019/09/26/spatial-networks.html
+
 muenster <- opq(bbox =  c(7.61, 51.954, 7.636, 51.968)) %>% 
   add_osm_feature(key = 'highway') %>% 
   osmdata_sf() %>% 
