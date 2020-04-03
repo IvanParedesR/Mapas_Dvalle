@@ -9,3 +9,4 @@ muenster_center <- muenster$osm_lines %>%
   select(highway)
   
 muenster_center
+ggplot(data = muenster_center) + geom_sf()
